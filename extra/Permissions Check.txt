@@ -1,0 +1,11 @@
+--Useful to figure out which permissions one has on the server and database
+--Must use brackets if hyphens in db name:  
+-USE [data-base];
+-USE database;
+
+SELECT * FROM fn_my_permissions(NULL, 'SERVER');
+USE TSQLV4;
+SELECT * FROM fn_my_permissions (NULL, 'DATABASE');
+GO
+
+
