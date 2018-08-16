@@ -1081,7 +1081,7 @@ OUTPUT $action AS theaction,
 	   inserted.address AS newaddress; 
 
 
---5.)
+--6.)
 --// nested DML
 --used to direct a subset of modified rows to a new table
 
